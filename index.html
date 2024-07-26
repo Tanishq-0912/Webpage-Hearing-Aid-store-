@@ -1,0 +1,494 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Allied Electric and Hardware Mart</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+</script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
+<!--/fonts-->
+<!--js--> 
+<script src="js/jquery.min.js"></script>
+<!--/js-->
+<!--animated-css-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!--/animated-css-->
+<!--gallery-->
+<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+<script type="text/javascript" src="js/jquery.gallery.js"></script>
+<script type="text/javascript">
+		$(function() {
+		$('#dg-container').gallery({
+		autoplay	:	true
+	});
+});
+</script>
+<!--/gallery-->
+<!--script-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+
+</head>
+<body>
+<!--top-nav-->
+<div class="top-nav">
+	 <div class="container-flex">
+	     <div class="nav">
+		     <span class="menu"> </span> 
+			 <ul>
+				 <li><a class="scroll" href="#top">HOME</a></li>
+				 <li><a class="scroll" href="#about">ABOUT US</a></li>
+				 <li><a class="scroll" href="#portfolio">GALLERY</a></li>
+				 <a href="#" class="logo">Allied Electric and Hardware Mart</a>
+				 <li><a class="scroll" href="#testi">TESTIMONIAL</a></li>
+				 <li><a class="scroll" href="#map">LOCATE US</a></li>
+				 <li><a class="scroll" href="#contact">CONTACT US</a></li>
+				 <a href="#" id="close"><i class="fas fa-times"></i></a>
+				 <div class="clearfix"> </div>
+			 </ul>
+			
+		 </div>
+		 <div id="mobile">
+			<i id="bar" class="fas fa-outdent"></i>
+		</div>
+		 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".nav ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+		 <!--script-nav-->
+
+	 </div>
+</div>
+<!--top-nav ends-->
+<!--banner-->
+<div id="home" class="banner">
+     <div class="banner-head">
+	     <div class="container">
+		      <!--banner Slider starts Here-->
+	  			<script src="js/responsiveslides.min.js"></script>
+			   <script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					  // Slideshow 4
+					  $("#slider4").responsiveSlides({
+						auto: true,
+						pager: true,
+						nav: false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						  $('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+						  $('.events').append("<li>after event fired.</li>");
+						}
+					  });
+				
+					});
+			  </script>
+			 <!--//End-slider-script-->
+			 <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+			         <li>
+						  <div class="banner-head-info"> 
+							 <h4>Hello,It is<span> Hearing Aid Store </span>,and we deals all types of hearing accessories like</h4>
+							 <h1>ANALOG</h1>
+							 <p class="title">We deal in all types of hearing aid product lines like analog machines, digital machines, Behind the Ear (BTE), In The Canal (ITC), Complete In Canal (CIC), Receiver-in-Canal (RIC), Accessory, Servicing And Repairing etc.</p>
+							 <div class="banner-Get-started">
+								<a href="#">GET QUOTE</a>
+							 </div>
+						  </div>
+			         </li>
+			         <li>
+			             <div class="banner-head-info">					    
+							<h4>Hello,It is<span> Hearing Aid Store </span>,and we deals all types of hearing accessories like</h4>
+			          	 <h1>DIGITAL</h1>
+						 <p class="title">We deal in all types of hearing aid product lines like analog machines, digital machines, Behind the Ear (BTE), In The Canal (ITC), Complete In Canal (CIC), Receiver-in-Canal (RIC), Accessory, Servicing And Repairing etc.</p>
+			             <div class="banner-Get-started">
+						 <a href="#">GET QUOTE</a>
+					      </div>
+					     </div>
+			         </li>
+			      </ul>
+			  </div>
+			    <div class="clearfix"> </div>
+	      </div>
+     </div>
+</div>
+<!--banner-->
+<!--SERVICES-->
+<div id="service" class="service">
+	<div class="container-flex">
+	 <img src="images/a.png" alt=""/>
+
+		      </div>
+</div>
+				<div class="clearfix"></div>
+		 
+	 
+<!--SERVICE-->
+
+<!--ABOUT-->
+<div id="about" class="about">
+	<h2>ABOUT US</h2>
+	<img src="images/service.png" alt=""/>
+	<p>Hear is Everything You Should Know About Us Before trust Our Hearing Aid Store.</p>
+	<div class="about-grids">
+		<div class="col-md-4 left-img">
+		<img src="images/b.jpg" class="img-responsive" alt=""/>
+		</div>
+		<div class="col-md-4 middle">
+			<a href="#"><h3>Allied ELectric And Hardware Mart</h3></a>
+			<h5>Hearing Aid Store</h5>
+			<h6>"We have been dealers of all hearing aid machines for the last 50 years. We deal in all types of hearing aid product lines like analog machines, digital machines, Behind the Ear (BTE), In The Canal (ITC), Complete In Canal (CIC), Receiver-in-Canal (RIC), Accessory, Servicing And Repairing etc. We deal In the renowned company of Hearing Aids Machine. Our expert team of technicians makes prompt and consistently dependable customer service possible. We believe in an on-going relationship with our clients. A product sale is just the beginning of a long association. At Allied Electric, we have immense faith in our products, which is why we provide excellent customer service, with pride and conviction."
+			 <div class="social-icons">
+				<a href="#"><span class="icon1"> </span></a>
+				<a href="#"><span class="icon2"> </span></a>
+				<a href="#"><span class="icon3"> </span></a>
+			</div>
+		</div>
+		<div class="col-md-4 right-img">
+		<img src="images/g2.jpg" class="img-responsive" alt=""/>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!---ABOUT ends-->
+
+
+<!--SERVICES BANNER-->
+<div class="service-banner">
+	  <div class="service-banner-layer">
+	     <div class="container service-banner-layer-info">
+	          <div class="col-md-6 tab">
+			  <span></span>
+			  </div>
+	           <div class="col-md-6 service-info">
+			      <h3>Allied Electric and Hardware Mart</h3>
+			      <p> At Allied Electric, we have immense faith in our products.
+					We deal in all types of hearing aid product lines like ,
+				  </p>
+			      <div class="service-nav">
+					  <ul>
+					  <li><a href="#"><span></span>Analog Machines</a></li> 
+					  <li><a href="#"><span></span>Digital Machines</a></li> 
+					  <li><a href="#"><span></span>Behind the Ear(BTE)</a></li> 
+					  <li><a href="#"><span></span>In The Canal (ITC)</a></li> 
+					  <li><a href="#"><span></span>Complete In Canal (CIC)</a></li> 
+					  <li><a href="#"><span></span>Receiver-in-Canal (RIC)</a></li> 
+					  </ul>
+			     </div>
+		      </div>
+		      <div class="clearfix"></div>
+	     </div>
+      </div>
+	 <!--SERVICES Footer-->	  
+	 <div class="service-footer">
+		  <div class="Get-started">
+			  <a href="#">GET QUOTE</a>
+		  </div>
+	 </div>
+	 <!--SERVICES Footer-->	  
+</div>
+<!--SERVICES BANNER ENDS-->
+
+<!--portfolio-->
+<div id="portfolio" class="portfolio">
+   <div class="portfolio-head">
+	 <h2>GALLERY</h2>
+	 <img src="images/service.png" alt=""/>
+	 <p>Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus 
+	 convallis quis ac lectus. Quisque velit nisi,pretium ut lacinia in, elementum id enim.</p>
+	 <div class="container">
+	      <ul id="filters" class="clearfix wow bounceIn" data-wow-delay="0.4s">
+			<li><span class="filter active" data-filter="app card icon logo fun">ALL</span></li>
+			<li><span class="filter" data-filter="app">Analog Machine</span></li>
+			<li><span class="filter" data-filter="card">Digital machine</span></li>
+			<li><span class="filter" data-filter="icon">Other machine</span></li>
+	       </ul>
+	     <div id="portfoliolist">
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/g1.jpeg" class="img-responsive" alt=""/></a>
+		                </div>
+					</div>				
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/g2.jpg" class="img-responsive" alt=""/></a>
+		                </div>
+					</div>		
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/g3.png" class="img-responsive" alt=""/></a>
+		                </div>
+					</div>				
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/g4.jpg" class="img-responsive" alt=""/></a>
+		                </div>
+					</div>	
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/g5.jpg" class="img-responsive" alt=""/></a>
+		                </div>
+					</div>			
+					<div class="portfolio fun mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
+							<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/g6.png" class="img-responsive" alt=""/></a>
+		                </div>
+			      </div>
+		   <div class="clearfix"></div>	
+	  </div>
+</div>	  
+<!-- Script for gallery Here-->
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script type="text/javascript">
+	$(function () {
+		var filterList = {
+		init: function () {
+// MixItUp plugin
+// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+				// call the hover effect
+				onMixEnd: filterList.hoverEffect()
+	});				
+},
+		hoverEffect: function () {
+// Simple parallax effect
+		$('#portfoliolist .portfolio').hover(
+			function () {
+			$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+			$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+			},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+			}		
+		);				
+	}
+};
+// Run the show!
+		filterList.init();
+	});	
+</script>
+<!--Gallery Script Ends-->
+<div class="clearfix"></div>
+<div class="portfolio-showmore">
+  <a href="#">SHOW MORE</a>
+</div>
+</div>
+  <div class="clearfix"></div>
+  </div>
+<!--gallery-->
+<!--MOLLY-->
+<div class="molly">
+	<h3>ALLIED HEARING AID STORE</h3>
+	<p><i>we have immense faith in our products, which is why we provide excellent customer service, with pride and conviction."</i></p>
+	<div class="molly-Get-started">
+	  <a href="#">Read More</a>
+	</div>
+	<div class="clearfix"></div>
+	<section id="dg-container" class="dg-container">
+	   <div class="dg-wrapper">
+						<a href="#"><img src="images/h.jpg" alt="image1" /></a>
+						<a href="#"><img src="images/b - Copy.jpg" alt="image2" /></a>
+						<a href="#"><img src="images/g.jpg" alt="image3" /></a>
+						<a href="#"><img src="images/c.png" alt="image4" /></a>
+						<a href="#"><img src="images/i.jpg" alt="image4" /></a>
+						<a href="#"><img src="images/d.jpg" alt="image5" /></a>
+						<a href="#"><img src="images/k.jpg" alt="image5" /></a>
+						<a href="#"><img src="images/f.jpg" alt="image1" /></a>
+		</div>
+	</section>
+	 </div>
+	<!--MOLLY ends-->
+
+	<!-- testimonials -->
+	
+	<div class="testimonials py-5" id="testi">
+		<div class="container py-xl-5 py-lg-3">
+			<div id="about" class="about">
+				<h2>TESTIMONIAL</h2>
+				<img src="images/service.png" alt=""/>
+			<p>What our customers say</p>>
+			<div class="carousel-inner">
+				<div class="row">
+					<div class="col-lg-6 w3_testimonials_grid">
+						<div class="bg-wh p-sm-5 p-4">
+							<p class="sub-test-w3ls">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+								impedit quo minus id quod possimus, omnis voluptas.
+							</p>
+							<div class="row mt-5">
+								<div class="col-3 testi-img-res">
+									<img src="images/team1.jpg" alt=" " class="img-fluid" />
+								</div>
+								<div class="col-9 w3_testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
+									<h5 class="mb-2">Thomas Carl</h5>
+									<p>Sed do eiusmod</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 w3_testimonials_grid mt-lg-0 mt-4">
+						<div class="bg-wh p-sm-5 p-4">
+							<p class="sub-test-w3ls">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+								impedit quo minus id quod possimus, omnis voluptas.
+							</p>
+							<div class="row mt-5">
+								<div class="col-3 testi-img-res">
+									<img src="images/team2.jpg" alt=" " class="img-fluid" />
+								</div>
+								<div class="col-9 w3_testi_grid  mt-xl-3 mt-lg-2 mt-md-4 mt-2">
+									<h5 class="mb-2">Adam Ster</h5>
+									<p>Sed do eiusmod</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- //testimonials -->
+
+
+  <!--map-->
+  <div id="map" class="direction">
+	<h2>LOCATE US</h2>
+	<img src="images/service.png" alt=""/>
+	<p>Locate Us and let us help you.</p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.8108202744565!2d75.89678789999999!3d22.735271899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd6323683639%3A0x71c8ab4d61880b0f!2sAllied%20Electric%20and%20Hardware%20Mart!5e0!3m2!1sen!2sin!4v1707646952883!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		  
+	  </div>
+	  <div class="clearfix"></div>
+  
+
+<!--portfolio-->
+
+<!--CONTACT-->
+<div id="contact" class="contact">
+	 <div class="contact-head">
+		 <div class="container">
+			 <h2>CONTACT US</h2>
+			 <img src="images/service.png" alt=""/>
+			<p>Leave a Message, We Love To Hear From You</p>
+		 </div>
+		 <form>
+			 <input type="text" class="text" value="Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name';}">
+			 <input type="text" class="text" value="Your mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your mail';}">
+			 <input type="text" class="text" value="Your Mobile" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Mobile ';}">
+			 <textarea onfocus="if(this.value == 'Enter Message Here') this.value='';" onblur="if(this.value == '') this.value='Enter Message Here';" >Enter Message Here</textarea>	
+			 <div class="clearfix"></div>
+			 <input type="submit" value="SEND MESSAGE">
+		 </form>
+	 </div>
+</div>
+<!--CONTACT Ends-->
+<!--FOOTER-->
+
+<div class="footer">
+	<div class="footer-head">
+		<div class="container-flex">
+			<div class="row">
+				<div class="col-lg-2 col-md-6 footer-contact">
+					<h5>Useful Links</h5>
+					<p>
+					<ul>
+						<li><i class="fas fa-angle-right"></i> <a href="#top">Home</a></li>
+						<li><i class="fas fa-angle-right"></i> <a href="#about">About us</a></li>
+						<li><i class="fas fa-angle-right"></i> <a href="#portfolio">Gallery</a></li>
+						<li><i class="fas fa-angle-right"></i> <a href="#testi">Testimonial</a></li>
+						<li><i class="fas fa-angle-right"></i> <a href="#map">Locate Us</a></li>
+						<li><i class="fas fa-angle-right"></i> <a href="#contact">Contact Us</a></li>
+					</ul></p>
+				</div>
+
+				<div class="col-lg-3 col-md-6 footer-links">
+					<h5>Contact Us</h5>
+						<p><a href="tel:+(91) 123456789">+(91) 123456789</a><br>
+						<a href="tel:+(91) 987654321">+(91) 987654321</a></p>
+				</div>
+				<div class="col-lg-2 col-md-6 footer-links">
+					<h5>Email</h5>
+					<p><a href="#">XYZ@gmail.com</a><br>
+					<a href="#">ABC@gmail.com</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6 footer-links">
+					<h5>Address</h5>
+					<p>130
+						near LIG Link Road
+						Anurag Nagar
+						Indore, Madhya Pradesh 452010
+						India</p>
+				</div>
+
+				<div class="col-lg-2 col-md-6 footer-links">
+					<h5>Buisness Hours</h5>
+					<p>MONDAY TO SATURDAY: </p>
+					<p>10AM TO 7PM</p>
+				</div>i	
+			</div>
+		</div>
+
+		 <div class="footer-social-icons">
+			 <a href="#"><span class="facebook"> </span></a>
+			 <a href="#"><span class="twitter"> </span></a>
+			 <a href="#"><span class="googleplus"> </span></a>
+			 <a href="#"><span class="wifi"> </span></a>
+			 <a href="#"><span class="tribble"> </span></a>
+			 <a href="#"><span class="instagram"> </span></a>
+			 <a href="#"><span class="skype"> </span></a>
+		 </div>
+		 <p>@2024 All right reserved ,This page is made with love by<a href="#"> Tanishq.</a></p>
+	 </div>
+
+<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+</body>
+</html>
